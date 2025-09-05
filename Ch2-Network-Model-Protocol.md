@@ -38,7 +38,7 @@ At the Transport layer, data becomes a segment, which the Network layer wraps wi
 ![DHCP](./images/dhcp.png)
 
 ## DNS (Domain Name System)
-![DNS](./images/dns.png)
+![DNS](./images/DNS.png)
 
 # 🌐 NAT (Network Address Translation)
 
