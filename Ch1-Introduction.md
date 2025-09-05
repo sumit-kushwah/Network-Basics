@@ -59,18 +59,18 @@ Ex - NIC for wifi, NIC for ethernot port
 This device keeps devices keep connected together. Switch manages a table which keeps track of port and it's connected devices mac address. This table helps switch to route the data frame from source device to target device.
 
 <!-- image -->
-![Switch](./switch.png)
+![Switch](./images/switch.png)
 
 ### Router
 This device connects two different networks together. It routes the packet from one network to another network. It uses routing table to decide which path to use to route the packet. So router forwards the packet based on IP address unlike switch which forwards the frame based on MAC address.
 
-![Switch](./router.png)
+![Switch](./images/router.png)
 
 ### Wireless Access Point (WAP)
 This device allows wireless devices to connect with wired network. It acts as a bridge between wired and wireless network.
 It's not a router. It doesn't route the packet from one network to another network.
 
-![WAP](./wireless_ap.png)
+![WAP](./images/wireless_ap.png)
 
 ## Copper Cabling
 Twisted pair cabling is most common type of copper cabling used in network. It's made up of 8 copper wires twisted together in 4 pairs. Each pair is color coded to identify the pair. The wires are twisted to reduce the electromagnetic interference.
@@ -80,11 +80,11 @@ There are two types of twisted pair cabling.
 - Plenum Rated Cable (CMP) - Non toxic cable used in air ducts
 
 **Note**: There are different categories of twisted pair cabling. The higher the category number, the higher the bandwidth and the faster the data transfer rate.Twisted cable have limitation on distance. The maximum distance for twisted pair cabling is 100 meters. Beyond this distance, the signal starts to degrade and data transfer rate decreases.
-![Twisted Pair Cabling](./tcable_cat.png)
+![Twisted Pair Cabling](./images/tcable_cat.png)
 
 #### RJ45 Connector
 It's used to connect the twisted pair cabling to the network device. It has 8 pins to connect 8 wires of twisted pair cabling.
-![RJ45](./rj45.png)
+![RJ45](./images/rj45.png)
 
 ### Fiber Optic Cabling
 For long distance communication, fiber optic cabling is used. It uses light to transmit the data. It's made up of glass or plastic core surrounded by cladding which reflects the light back to the core. There are two types of fiber optic cabling.

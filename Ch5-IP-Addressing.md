@@ -112,11 +112,11 @@ Without DHCP, each device would need manual IP setup.
 - Ensures IPs are unique using lease tables + ARP checks.
 - Uses leases so IPs can be reused efficiently.
 
-![dhcp_conf](./dhcp_conf.png)
+![dhcp_conf](./images/dhcp_conf.png)
 
 ## IP Address Formatting
 
-![ip_format](./ip_address_formatting.png)
+![ip_format](./images/ip_address_formatting.png)
 
 # IPv4 Address Classes and Special Ranges
 
@@ -125,7 +125,7 @@ In the early internet, IPv4 addresses were divided into
 **classes** to separate big, medium, and small networks.
 
 
-![ipv4_classes](./ipv4_classes.png)
+![ipv4_classes](./images/ipv4_classes.png)
 
 | Class | First Octet Range | Default Subnet Mask | Network/Host Split | Devices Possible | Use |
 |-------|-------------------|----------------------|--------------------|------------------|-----|

@@ -9,12 +9,12 @@
 8.	Physical layer → turns data into signals (electrical pulses, light, or radio waves) that travel through cables or Wi-Fi.
 9.	Each layer adds or removes its own “envelope,” so the message can safely travel from sender to receiver.
 
-![osi_model.png](osi_model.png)
+![osi_model.png](./images/osi_model.png)
 
 ### OSI Model PDU
 At the Transport layer, data becomes a segment, which the Network layer wraps with an IP header to make a packet, and then the Data Link layer wraps that packet with MAC addresses and error-check info to form a frame; finally, the Physical layer turns the frame into bits for transmission. In theory it’s a clean 1-to-1 mapping (one segment → one packet → one frame), but in practice it depends on the protocol — e.g., Ethernet usually keeps 1:1, while technologies like ATM or modern Wi-Fi (802.11n/ac/ax) can do segmentation or aggregation, meaning multiple packets may be split across frames or several packets combined into one frame (to improve efficiency).
 
-![alt text](osi_pdu.png)
+![alt text](./images/osi_pdu.png)
 
 ## TCP/IP Model
 ⚡ Difference Between OSI and TCP/IP
@@ -28,17 +28,17 @@ At the Transport layer, data becomes a segment, which the Network layer wraps wi
     - OSI helps us learn and understand networking in detail, layer by layer.
     - TCP/IP is the actual protocol stack used on the internet.
 
-![TCP/IP Model](./tcp_ip_model.png)
+![TCP/IP Model](./images/tcp_ip_model.png)
 
 # Protocols
-![Protocols](protocols1.png)
-![Protocols](protocol2.png)
+![Protocols](./images/protocols1.png)
+![Protocols](./images/protocol2.png)
 
 ## DHCP (Dynamic Host Configuration Protocol)
-![DHCP](dhcp.png)
+![DHCP](./images/dhcp.png)
 
 ## DNS (Domain Name System)
-![DNS](dns.png)
+![DNS](./images/dns.png)
 
 # 🌐 NAT (Network Address Translation)
 
